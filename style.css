@@ -6,6 +6,13 @@ body {
   color: #505962;
 }
 
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
 /*--- Navigation --*/
 
 .navbar {
@@ -31,7 +38,7 @@ body {
   color: #1ebba3;
 }
 
-/*--- Landing PAge --*/
+/*--- Landing Page --*/
 
 .home-inner {
   background-image: url(img/computers.png);
@@ -62,6 +69,24 @@ body {
   border-radius: 0;
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
+}
+
+/*--- About Me Section --*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+  font-size: 2.4rem;
+}
+
+/*--- Skills Section --*/
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
