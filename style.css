@@ -87,6 +87,29 @@ body {
 .jumbotron {
   margin-bottom: 0;
   padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.heading-underline {
+  width: 3rem;
+  heigh: 0.2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 2rem;
+}
+.skills svg.svg-inline--fa {
+  color: #1ebba3;
+}
+.skills h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: 0.4rem;
+}
+.skills p {
+  font-size: 1.1rem;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
